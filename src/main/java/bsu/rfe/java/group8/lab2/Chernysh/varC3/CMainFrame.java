@@ -2,17 +2,12 @@ package bsu.rfe.java.group8.lab2.Chernysh.varC3;
 
 import java.io.File;
 import java.awt.Toolkit;
-import java.awt.Dimension;
 import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Image;
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
@@ -24,7 +19,6 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JRadioButton;
-import javax.swing.JPanel;
 
 public class CMainFrame extends JFrame {
     private static final int iFWidth = 1080;
